@@ -1,0 +1,25 @@
+.header {
+    min-height: 70vh;
+    background-color: #B57EDC;
+    position: relative;
+}
+
+#wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+#wave-preco {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.divPreco {
+    min-height: 30vh;
+    background-color: #B57EDC;
+    position: relative;
+}
