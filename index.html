@@ -4,221 +4,315 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Ro Luiza</title>
 
+    <!--Link CSS-->
+
     <link rel="stylesheet" href="./CSS/styleIndex.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+    <!--Fontes estilização-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+
 </head>
 
 <body>
 
-    <header>
+    <header id="divCabecalho">
 
-        <div>
+        <div id="divContato" class="row">
 
-            <div>
+            <div class="contatoHeader col-sm-6">
 
-                <img src="" alt="">
+                <img src="./images/img_email-removebg-preview.png" alt="" id="imgEmail">
 
-                <p>ro_luiza15@hotmail.com</p>
+                <p class="pHeaderContato">ro_luiza15@hotmail.com</p>
 
             </div>
 
-            <div>
+            <div class="contatoHeader col-sm-6">
 
-                <img src="" alt="">
+                <img src="./images/whatsapp.png" alt="" id="imgWhatsapp">
 
-                <p>(16)99107-3511</p>
+                <p class="pHeaderContato">(16)99107-3511</p>
 
             </div>
 
         </div>
 
+        <div class="banner row">
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="wave">
+
+                <path fill="#ffffff" fill-opacity="1"
+                    d="M0,256L40,240C80,224,160,192,240,160C320,128,400,96,480,85.3C560,75,640,85,720,96C800,107,880,117,960,138.7C1040,160,1120,192,1200,192C1280,192,1360,160,1400,144L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+
+                </path>
+
+            </svg>
+
+            <div class="col-sm-6">
+
+                <h1 id="titleBanner">Transforme Sua Carreira na Beleza: Do Básico ao Avançado</h1>
+
+                <p id="pBanner">Aprenda com quem vive a beleza há mais de 38 anos e domine a arte e a ciência dos
+                    cabelos</p>
+
+                <div id="divBtnContato">
+
+                    <button id="btnContato">Contato</button>
+
+                </div>
+            </div>
+
+            <div id="divImgRo" class="col-sm-6">
+                <img src="./images/img_header.png" alt="" id="imgRo">
+            </div>
+
+        </div>
     </header>
-    <div class="header">
-
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="wave">
-
-            <path fill="#ffffff" fill-opacity="1"
-                d="M0,256L40,240C80,224,160,192,240,160C320,128,400,96,480,85.3C560,75,640,85,720,96C800,107,880,117,960,138.7C1040,160,1120,192,1200,192C1280,192,1360,160,1400,144L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
-
-            </path>
-
-        </svg>
-
-        <h1>Transforme Sua Carreira na Beleza: Do Básico ao Avançado</h1>
-
-        <p>Aprenda com quem vive a beleza há mais de 38 anos e domine a arte e a ciência dos cabelos</p>
-
-        <button>Contato</button>
-
-        <div>
-            <img src="./images/img_header.png" alt="">
-        </div>
-
-    </div>
-
-    <h2>De Uma Aprendiz a Uma Cabeleireira Científica</h2>
-
-    <div>
-
-        <p>
-            "Quando comecei minha jornada no mundo da beleza, trabalhava a troco de conhecimento. Eu sonhava em ser
-            cabeleireira e dedicava meus dias a aprender técnicas, mas sentia que faltava algo. Eu sabia fazer, mas não
-            entendia o porquê de cada processo.
-            Essa inquietação me levou a buscar respostas. Investi anos em estudos, me especializei na parte científica
-            dos cabelos e me tornei tricoterapeuta e especialista em cachos, lisos e loiros. Fiz treinamentos na
-            renomada academia HairSchool e acumulei mais de 38 anos de experiência no mercado da beleza.
-            Hoje, meu propósito é compartilhar tudo o que aprendi e ajudar você a alcançar o sucesso na área da beleza."
-        </p>
-
-        <div>
-            <img src="./images/img_secao2.jpeg" alt="">
-        </div>
-
-    </div>
-
-    <div>
-
-        <p>ROSELI LUIZA - CABELEIREIRA CIENTÍFICA</p>
-
-    </div>
-
-    <h2>Você Já Se Sentiu Perdido ou Estagnado na Carreira ?</h2>
 
 
-    <div>
+    <h2 id="subTitle">De Uma Aprendiz Determinada a Uma Cabeleireira Científica</h2>
 
-        <div>
+    <div class="container">
 
-            <img src="./images/img1_secao2.png" alt="">
+        <div class="row">
 
-            <p>Você quer iniciar na área da beleza, mas não sabe por onde começar?</p>
+            <div class="col-sm-6">
+
+                <p id="pSobreMim">
+                    "Quando comecei minha jornada no mundo da beleza, trabalhava a troco de conhecimento. Eu sonhava em
+                    ser
+                    cabeleireira e dedicava meus dias a aprender técnicas, mas sentia que faltava algo. Eu sabia fazer,
+                    mas
+                    não
+                    entendia o porquê de cada processo.
+                    Essa inquietação me levou a buscar respostas. Investi anos em estudos, me especializei na parte
+                    científica
+                    dos cabelos e me tornei tricoterapeuta e especialista em cachos, lisos e loiros. Fiz treinamentos na
+                    renomada academia HairSchool e acumulei mais de 38 anos de experiência no mercado da beleza.
+                    Hoje, meu propósito é compartilhar tudo o que aprendi e ajudar você a alcançar o sucesso na área da
+                    beleza."
+                </p>
+
+
+            </div>
+
+            <div class="col-sm-6" id="divImgCientifica">
+
+                <img src="./images/img_secao2.jpeg" alt="" id="imgCientifica">
+
+            </div>
 
         </div>
+        <div class="row">
 
-        <div>
-
-            <img src="./images/img2_secao2.png" alt="">
-
-            <p>Já é cabeleireiro(a), mas sente que falta algo para se destacar?</p>
-
-        </div>
-
-        <div>
-
-            <img src="./images/img3_secao2.png" alt="">
-
-            <p>Quer entender profundamente os processos e transformar sua prática com conhecimento científico?</p>
-        </div>
-    </div>
-
-    <p>Se você respondeu <span>"sim"</span> a qualquer uma dessas perguntas, eu criei algo especial para você.</p>
-
-    <h2>Eu Tenho o Curso Ideal Para Você</h2>
-
-    <div>
-
-        <h2>Início na Beleza</h2>
-
-        <p>Para quem deseja começar na área de cabeleireiro(a) com técnicas sólidas e práticas.</p>
-
-        <ul>
-
-            <li>Aprenda o básico de cortes, coloração e cuidados com o cabelo.</li>
-
-            <li>Desenvolva confiança para atender seus primeiros clientes.</li>
-
-        </ul>
-
-        <div class="divPreco">
-
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="wave-preco">
-
-                <path fill="#ffffff" fill-opacity="1"
-                    d="M0,224L80,240C160,256,320,288,480,277.3C640,267,800,213,960,192C1120,171,1280,181,1360,186.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
-
-                </path>
-
-            </svg>
-
-            <h1 style="text-align: center;">R$ 000,00</h1>
+            <p id="pAutorSobreMim">ROSELI LUIZA - CABELEIREIRA CIENTÍFICA</p>
 
         </div>
     </div>
 
-    <div>
 
-        <h2>Cabeleireiro Científico Avançado</h2>
 
-        <p>Para profissionais que já estão na área e querem se aprofundar na ciência capilar.</p>
+    <h2 id="titleSec2">Você Já Se Sentiu Perdido ou Estagnado na Carreira ?</h2>
 
-        <ul>
 
-            <li>Entenda a estrutura dos fios e o impacto dos produtos químicos.</li>
+    <div class="container">
 
-            <li>Torne-se especialista em cachos, lisos e loiros.</li>
+        <div class="row divRowSec2">
 
-            <li>Ofereça um atendimento diferenciado que fideliza clientes.</li>
 
-        </ul>
+            <div class="col-sm-4 divImgSec2">
 
-        <div class="divPreco">
+                <img src="./images/img1_secao2.png" alt="" class="imgSec2">
 
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="wave-preco">
+                <p class="pSec2">Você quer iniciar na área da beleza, mas não sabe por onde começar?</p>
 
-                <path fill="#ffffff" fill-opacity="1"
-                    d="M0,224L80,240C160,256,320,288,480,277.3C640,267,800,213,960,192C1120,171,1280,181,1360,186.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+            </div>
 
-                </path>
+            <div class="col-sm-4 divImgSec2">
 
-            </svg>
+                <img src="./images/img2_secao2.png" alt="" class="imgSec2">
 
-            <h1 style="text-align: center;">R$ 000,00</h1>
+                <p class="pSec2">Já é cabeleireiro(a), mas sente que falta algo para se destacar?</p>
+
+            </div>
+
+            <div class="col-sm-4 divImgSec2">
+
+                <img src="./images/img3_secao2.png" alt="" class="imgSec2">
+
+                <p class="pSec2">Quer entender profundamente os processos e transformar sua prática com conhecimento
+                    científico?</p>
+            </div>
+        </div>
+    </div>
+
+    <p class="pSec2Final">
+
+        Se você respondeu
+
+        <span id="spanSec2">"sim"</span>
+
+        a qualquer uma dessas perguntas, eu criei
+
+        algo especial para você.
+
+    </p>
+
+    <h2 id="titleSec3">Eu Tenho o Curso Ideal Para Você</h2>
+
+    <div id="rowCursos">
+
+
+        <div class="col-sm-4" id="coluna1_cursos">
+
+            <h2 class="titleCursos">Início na Beleza</h2>
+
+            <p class="pCursos">Para quem deseja começar na área de cabeleireiro(a) com técnicas sólidas e práticas.</p>
+
+            <ul class="listaCursos">
+
+                <li>Aprenda o básico de cortes, coloração e cuidados com o cabelo.</li>
+
+                <li>Desenvolva confiança para atender seus primeiros clientes.</li>
+
+            </ul>
+
+
+            <div class="divPreco" id="divPreco1">
+
+                <h1 class="preco">R$ 000,00</h1>
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox=" 0 0 1440 320" class="wave-preco">
+
+                    <path fill="#ffffff" fill-opacity="1"
+                        d="M0,224L80,240C160,256,320,288,480,277.3C640,267,800,213,960,192C1120,171,1280,181,1360,186.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+                    </path>
+
+                </svg>
+
+            </div>
+
 
         </div>
+
+        <div class="col-sm-4" id="coluna2_cursos">
+
+            <h2 class="titleCursos">Cabeleireiro Científico Avançado</h2>
+
+            <p class="pCursos">Para profissionais que já estão na área e querem se aprofundar na ciência capilar.</p>
+
+            <ul class="listaCursos">
+
+                <li>Entenda a estrutura dos fios e o impacto dos produtos químicos.</li>
+
+                <li>Torne-se especialista em cachos, lisos e loiros.</li>
+
+                <li>Ofereça um atendimento diferenciado que fideliza clientes.</li>
+
+            </ul>
+
+            <div class="divPreco" id="divPreco2">
+
+                <h1 class="preco">R$ 000,00</h1>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="wave-preco">
+
+                    <path fill="#ffffff" fill-opacity="1"
+                        d="M0,224L80,240C160,256,320,288,480,277.3C640,267,800,213,960,192C1120,171,1280,181,1360,186.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+                    </path>
+
+                </svg>
+            </div>
+
+        </div>
+
 
     </div>
 
     <div>
-        <h2>Clique no Botão Abaixo e Inscreva-se agora no curso que transforma sua carreira!</h2>
+        <h2 class="subTitle">Clique no Botão Abaixo e Inscreva-se agora no curso que transforma sua carreira!</h2>
 
-        <div>
-
-            <button>INSCREVER-SE</button>
+        <div class="divBtn">
+            <button id="btnInscrever">INSCREVER-SE</button>
         </div>
 
     </div>
 
 
-    <div>
+    <div class="divImgQuemSou">
+
         <img src="./images/img_Porque_pc.png" alt="" width="100%" height="100%">
-    </div>
-
-    <h2>O Primeiro Passo Para Sua Nova Carreira Começa Aqui!</h2>
-
-    <h3>TEMPO PARA O TÉRMINO DAS INSCRIÇÕES</h3>
-
-    <div>
-
-        <div>
-
-        </div>
-
-        <div>
-
-        </div>
-
-        <div>
-
-        </div>
-
-        <div>
-
-        </div>
 
     </div>
 
-    <p>Não deixe para amanhã o que pode transformar sua vida hoje. Invista em você, na sua carreira e no seu futuro!</p>
+    <h2 class="subTitle" id="subTitleCronometro">O Primeiro Passo Para Sua Nova Carreira Começa Aqui!</h2>
+
+    <h3 class="subTitle" id="subTitleInscricoes">TEMPO PARA O <span id="spanTitleInscricoes">TÉRMINO DAS
+            INSCRIÇÕES</span></h3>
+
+    <div id="divContagem">
+
+        <div class="tempo">
+
+            <div class="divBorda">
+
+                <span id="dias">0</span>
+
+            </div>
+
+            <p class="pTempo">DIAS</p>
+
+        </div>
+
+        <div class="tempo">
+
+            <div class="divBorda">
+
+                <span id="horas">0</span>
+
+            </div>
+
+            <p class="pTempo">HORAS</p>
+
+        </div>
+
+        <div class="tempo">
+
+            <div class="divBorda">
+
+                <span id="minutos">0</span>
+
+            </div>
+
+            <p class="pTempo">MINUTOS</p>
+
+        </div>
+
+        <div class="tempo">
+
+            <div class="divBorda">
+
+                <span id="segundos">0</span>
+
+            </div>
+
+            <p class="pTempo">SEGUNDOS</p>
+
+        </div>
+
+    </div>
+
+    <p>Não deixe para amanhã o que pode transformar sua vida hoje. Invista em você, na sua carreira e no seu futuro!
+    </p>
 
     <h2>Nossa Garantia Para Você</h2>
 
@@ -230,7 +324,8 @@
         </div>
 
         <p>
-            Estamos tão confiantes na qualidade dos nossos cursos que oferecemos uma GARANTIA DE SATISFAÇÃO. Se você não
+            Estamos tão confiantes na qualidade dos nossos cursos que oferecemos uma GARANTIA DE SATISFAÇÃO. Se você
+            não
             estiver satisfeito com o conteúdo, entre em contato em até 7 DIAS para solicitar suporte ou reembolso.
         </p>
 
@@ -245,7 +340,8 @@
         <h1>Resultados Que Falam Por Si</h1>
 
         <p>
-            Confira algumas das <span>transformações</span> incríveis que realizei ao longo da minha carreira. Seja em
+            Confira algumas das <span>transformações</span> incríveis que realizei ao longo da minha carreira. Seja
+            em
             <span>cachos</span>, <span>lisos</span>
             ou <span>loiros</span>, cada cliente é único, e meu objetivo é sempre alcançar resultados que
             <span>superem as expectativas.</span>
@@ -278,12 +374,14 @@
                 <ul>
 
                     <li>
-                        O curso básico é ideal para quem está começando na área da beleza e quer aprender as técnicas
+                        O curso básico é ideal para quem está começando na área da beleza e quer aprender as
+                        técnicas
                         fundamentais para se tornar cabeleireiro(a).
                     </li>
 
                     <li>
-                        O curso avançado é voltado para profissionais que já atuam na área e desejam se aprofundar na
+                        O curso avançado é voltado para profissionais que já atuam na área e desejam se aprofundar
+                        na
                         ciência capilar e em técnicas especializadas.
                     </li>
 
@@ -326,7 +424,8 @@
     <h2>Venha Nos Visitar</h2>
 
     <p>
-        Estamos localizados em um espaço pensado especialmente para oferecer conforto e aprendizado de qualidade. Clique
+        Estamos localizados em um espaço pensado especialmente para oferecer conforto e aprendizado de qualidade.
+        Clique
         no mapa abaixo para abrir nossa localização no Google Maps e traçar sua rota até nós.
     </p>
 
@@ -379,11 +478,11 @@
             <div>
 
                 <img src="./images/facebook.jpeg" alt="">
-                
+
                 <img src="./images/instagram.jpeg" alt="">
-            
+
             </div>
-        
+
         </div>
 
         <div>
@@ -404,6 +503,10 @@
         </div>
 
     </footer>
+
+    <script src="./JS/jQuery.js"></script>
+
+    <script src="./JS/script.js"></script>
 
 </body>
 

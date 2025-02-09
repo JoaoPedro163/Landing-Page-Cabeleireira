@@ -1,25 +1,373 @@
-.header {
+.banner {
+    display: flex;
     min-height: 70vh;
     background-color: #B57EDC;
     position: relative;
+    border: none;
 }
 
 #wave {
     position: absolute;
     bottom: 0;
     left: 0;
-
 }
 
-#wave-preco {
+.wave-preco {
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
     width: 100%;
+    transform: rotate(180deg);
+    border: none;
 }
 
 .divPreco {
-    min-height: 30vh;
+    min-height: 15vh;
+    width: 100%;
     background-color: #B57EDC;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.pHeaderContato {
+    margin-top: 2%;
+}
+
+#divContato {
+    display: flex;
+    height: 4vh;
+    width: 50%;
+    margin-left: 5%;
+}
+
+#divCabecalho {
+    background-color: #111111;
+    width: 100%;
+}
+
+.contatoHeader {
+    color: #CAB230;
+    font-size: 13px;
+    font-family: "Montserrat", "Sans-serif";
+    width: 100%;
+    text-align: center;
+    display: flex;
+    font-weight: 450;
+}
+
+#imgEmail {
+    width: 25px;
+    height: 25px;
+    margin-top: 2%;
+}
+
+#imgWhatsapp {
+    width: 25px;
+    height: 25px;
+    margin-top: 2%;
+}
+
+#imgRo {
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+}
+
+#titleBanner {
+    width: 80%;
+    font-size: 45px;
+    margin: auto;
+    margin-top: 15%;
+    font-family: "Inter", "Sans-serif";
+    color: #6A0DAD;
+    text-align: justify;
+    font-weight: bold;
+}
+
+#pBanner {
+    width: 80%;
+    font-size: 25px;
+    margin: auto;
+    margin-top: 2%;
+    font-family: "Arial", "Sans-serif";
+    font-weight: normal;
+    color: #6A0DAD;
+    text-align: justify;
+}
+
+#btnContato {
+    width: 40%;
+    background-color: #6A0DAD;
+    border: none;
+    color: white;
+    font-family: "Montserrat", "Sans-serif";
+    font-weight: bold;
+    height: 3.5vh;
+    border-radius: 7px;
+    margin-top: 2%;
+    font-size: 16px;
+}
+
+#divBtnContato {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 3%;
+}
+
+#imgCientifica {
+    width: 50%;
+}
+
+#subTitle {
+    font-family: "Montserrat", "Sans-serif";
+    font-size: 25px;
+    color: #6A0DAD;
+    text-align: center;
+    font-weight: bold;
+}
+
+#pSobreMim {
+    font-family: "Inter", "Sans-serif";
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    text-align: justify;
+    margin-top: 5%;
+}
+
+#imgCientifica {
+    width: 100%;
+}
+
+#divImgCientifica {
+    width: 50%;
+}
+
+#pAutorSobreMim {
+    width: 20%;
+    margin: auto;
+    text-align: right;
+    margin-top: 3%;
+    font-family: "Arial", "Sans-serif";
+    font-weight: bold;
+    font-size: 10px;
+    color: #4B0082;
+}
+
+.imgSec2 {
+    width: 10vh;
+    height: 10vh;
+}
+
+.divImgSec2 {
+    text-align: center;
+}
+
+#titleSec2 {
+    font-family: "Montserrat", "Sans-serif";
+    font-weight: bold;
+    font-size: 25px;
+    color: #6A0DAD;
+    text-align: center;
+    margin-top: 9%;
+}
+
+.divRowSec2 {
+    padding-top: 3%;
+}
+
+.pSec2 {
+    font-family: "Inter", "Sans-serif";
+    font-size: 15px;
+    color: #282626;
+}
+
+.pSec2Final {
+    font-size: 15px;
+    color: #6A0DAD;
+    font-family: "Montserrat", "Sans-serif";
+    text-align: center;
+    margin-top: 2%;
+}
+
+#spanSec2 {
+    font-weight: bold;
+}
+
+#coluna1_cursos {
+    display: grid;
+    width: 35vh;
+    border: 2px solid #B57EDC;
+    overflow: hidden;
+    margin-right: 2%;
+}
+
+#coluna2_cursos {
+    display: grid;
+    width: 35vh;
+    border: 2px solid #B57EDC;
+    background-color: #ffffff;
+    margin-left: 2%;
+}
+
+.preco {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+#rowCursos {
+    display: flex;
+    align-items: stretch;
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+#divPreco2 {
+    width: 100%;
+}
+
+#divPreco1 {
+    width: 100%;
+}
+
+#titleSec3 {
+    text-align: center;
+    margin-top: 5%;
+    font-weight: bold;
+    font-family: "Montserrat", "Sans-serif";
+    color: #6A0DAD;
+    font-size: 25px;
+}
+
+.titleCursos {
+    font-family: "Poppins", "Sans-serif";
+    font-size: 23px;
+    color: #621C94;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.pCursos {
+    text-align: center;
+    font-size: 19px;
+    font-family: "Inter", "Sans-serif";
+    color: #621C94;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.listaCursos {
+    font-size: 19px;
+    font-family: "Inter", "Sans-serif";
+    color: #621C94;
+}
+
+.subTitle {
+    font-family: "Montserrat", "Sans-serif";
+    font-size: 23px;
+    font-weight: bold;
+    color: #6A0DAD;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.divBtn {
+    text-align: center;
+    margin-top: 1%;
+}
+
+#btnInscrever {
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    background-color: #6A0DAD;
+    border: none;
+    font-weight: bold;
+    font-family: "Montserrat", "Sans-serif";
+    width: 10%;
+}
+
+.divImgQuemSou {
+    margin-top: 5%;
+}
+
+#subTitleCronometro {
+    font-size: 25px;
+}
+
+#subTitleInscricoes {
+    font-size: 22px;
+    color: #282626;
+}
+
+#spanTitleInscricoes {
+    color: #621C94;
+}
+
+#divContagem {
+    display: flex;
+}
+
+.tempo {
+    width: 10vh;
+    text-align: center;
+}
+
+#divContagem {
+    width: 30%;
+    margin: auto;
+    margin-top: 1%;
+    justify-content: space-around;
+}
+
+.divBorda {
+    width: 7vh;
+    border: 1px solid #B57EDC;
+    border-radius: 4px;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dias {
+    color: #6A0DAD;
+    font-family: "Arial", "Sans-serif";
+    font-size: 27px;
+}
+
+#horas {
+    color: #6A0DAD;
+    font-family: "Arial", "Sans-serif";
+    font-size: 27px;
+}
+
+#minutos{
+    color: #6A0DAD;
+    font-family: "Arial", "Sans-serif";
+    font-size: 27px;
+}
+
+#segundos{
+    color: #6A0DAD;
+    font-family: "Arial", "Sans-serif";
+    font-size: 27px;
+}
+
+.pTempo{
+    color: #6A0DAD;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Inter", "Sans-serif";
+    text-align: center;
 }
