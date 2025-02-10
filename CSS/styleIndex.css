@@ -431,6 +431,7 @@
 
 #imgResultados {
     object-fit: cover;
+    position: relative;
     width: 70vh;
     height: 60vh;
 }
@@ -468,4 +469,66 @@
     font-weight: bold;
     text-align: center;
     margin-top: 1%;
+}
+
+#divImgDuvida {
+    text-align: center;
+}
+
+#imgDuvida {
+    width: 60vh;
+    height: 60vh;
+}
+
+#colDuvidas {
+    align-items: center;
+}
+
+.divHeaderDuvidas {
+    background-color: #B57EDC;
+    width: 80%;
+    border-radius: 10px 10px 0 0;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    padding-top: 18px;
+    color: white;
+    font-family: "Montserrat", "Sans-serif";
+    font-size: 14px;
+    justify-content: center;
+    cursor: pointer;
+    margin: auto;
+}
+
+.resposta {
+    display: none;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    font-family: "Inter", "Sans-serif";
+    font-size: 15px;
+    margin-top: 1%;
+}
+
+.divDuvida {
+    margin-top: 2%;
+}
+
+#duvida1 {
+    margin-top: 15%;
+}
+
+#subTitleVisitar {
+    margin-top: 8%;
+}
+
+#pVisitar {
+    font-family: "Inter", "Sans-serif";
+    font-size: 18px;
+    font-weight: 450;
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    color: #282626;
 }

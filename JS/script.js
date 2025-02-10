@@ -36,4 +36,8 @@ $(document).ready(function () {
 
     setInterval(atualizarContador, 1000);
 
+
+    $('.divHeaderDuvidas').click(function(){
+        $(this).next(".resposta").slideToggle();
+    });
 });
